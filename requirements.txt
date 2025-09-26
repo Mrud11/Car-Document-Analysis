@@ -1,0 +1,11 @@
+# TinyLlama RAG requirements
+pdfplumber==0.11.0
+sentence-transformers==2.2.2
+llama-cpp-python==0.2.76
+torch==2.4.0   # CPU build is fine if you don't have GPU
+transformers==4.44.0
+tqdm==4.66.4
+requests==2.32.3
+google-api-python-client==2.147.0
+google-auth==2.35.0
+google-auth-oauthlib==1.2.1
